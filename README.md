@@ -24,16 +24,16 @@
 </div>
 
 ---
-
+<span id="about-me"></span>
 ## 🙋‍♂️ 关于我 (About Me)
 
 - 🎓 **学历背景**：福州大学 计算机科学与技术专业 本科在读
 - 💡 **技术理念**：信奉“工程不仅是编写代码，更是构建可靠、可演进的系统”，热衷于敏捷开发、自动化与全栈工程。
 - 🎨 **兴趣爱好**：
   - 这是一个值得深思的问题……
-- 🌟 **想与大家分享的经历**：这是我来到这个世界上的第 **7605** 天。
+- 🌟 **想与大家分享的经历**：这是我来到这个世界上的第 **7606** 天。
 ---
-
+<span id="tech-stack"></span>
 ## 🛠️ 技术栈与技能树 (Tech Stack)
 
 ### 编程语言 (Languages)
@@ -48,14 +48,14 @@
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 
 ---
-
+<span id="projects"></span>
 ## 🚀 项目与实践经历 (Projects)
 用AI做的一个半成品（  ）
 <img width="2545" height="1401" alt="image" src="https://github.com/user-attachments/assets/177ff334-7d48-4832-8c31-ad53117696d8" />
 
 
 ---
-
+<span id="self-assessment"></span>
 ## 🧭 自我评估 (Self-Assessment)
 
 ### 1. 已掌握的专业知识与能力
@@ -72,7 +72,7 @@
 - **工程化测试体系**：从单元测试、集成测试到自动化压力测试，掌握如何编写具备高健壮性、可维护性的高质量工业级代码。
 
 ---
-
+<span id="roadmap"></span>
 ## 🎯 未来三年发展规划 (3-Year Roadmap)
 
 > **核心发展导向**：【请选择并保留你的核心方向：保研深造 / 考研攻坚 / 知名互联网企业就业 / 公共服务与选调】
