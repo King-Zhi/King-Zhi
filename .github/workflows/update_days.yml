@@ -1,0 +1,37 @@
+name: 每天自动更新天数
+
+on:
+  schedule:
+    # 每天北京时间 00:05 自动触发运行 (UTC 16:05)
+    - cron: '5 16 * * *'
+  workflow_dispatch: # 支持手动点击按钮测试
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v3
+
+      - name: 自动计算天数并更新 README
+        run: |
+          python -c "
+          import re
+          from datetime import date
+          start = date(2005, 11, 15)
+          today = date.today()
+          days = (today - start).days + 1
+          with open('README.md', 'r', encoding='utf-8') as f:
+              content = f.read()
+          # 自动正则匹配并替换天数数字
+          new_content = re.sub(r'来到这个世界上的第 \*\*\d+\*\* 天', f'来到这个世界上的第 **{days}** 天', content)
+          with open('README.md', 'w', encoding='utf-8') as f:
+              f.write(new_content)
+          "
+
+      - name: 提交并推送修改
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Actions Bot"
+          git commit -am "chore: 自动更新存活天数计数器" || echo "今天天数未发生变化"
+          git push
