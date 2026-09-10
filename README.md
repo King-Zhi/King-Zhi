@@ -15,11 +15,11 @@
   </p>
 
   <p align="center">
-    <a href="#-关于我-about-me">关于我</a> •
-    <a href="#-技术栈与技能树-tech-stack">技术栈</a> •
-    <a href="#-项目与实践经历-projects">实践经历</a> •
-    <a href="#-自我评估-self-assessment">自我评估</a> •
-    <a href="#-未来三年规划-3-year-roadmap">三年规划</a>
+    <a href="#about-me">关于我</a> •
+    <a href="#tech-stack">技术栈</a> •
+    <a href="#projects">实践经历</a> •
+    <a href="#self-assessment">自我评估</a> •
+    <a href="#roadmap">三年规划</a>
   </p>
 </div>
 
@@ -40,28 +40,19 @@
 ![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
 
 ### 框架与工程工具 (Frameworks & Tools)
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
 
 ---
 
 ## 🚀 项目与实践经历 (Projects)
+用AI做的一个半成品（https://gpt.weilaiyan.xyz）
+<img width="2545" height="1401" alt="image" src="https://github.com/user-attachments/assets/177ff334-7d48-4832-8c31-ad53117696d8" />
 
-| 项目名称 | 技术栈 | 核心职责与亮点 |
-| :--- | :--- | :--- |
-| **Flux Realism 交互生成系统** | Python, Flask, Hugging Face API, Tailwind CSS | 对接 Hugging Face Serverless 推理路由，实现 FLUX 写实 LoRA 模型的微调生成，设计响应式前端与实时调用日志监控控制台。 |
-| **经典数据结构与算法实践库** | C / C++, Git | 实现链表、红黑树、图算法等核心数据结构，完成 LeetCode 经典题目的规范化模块化实现与单元测试。 |
-| **轻量级学生信息/任务管理系统** | Python / Java, 文件IO/SQLite | 采用 MVC 模式设计，支持数据的增删改查、输入合法性校验及多条件筛选导出。 |
 
 ---
 
